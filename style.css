@@ -1,0 +1,47 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#060a10;color:#f7f9fc;font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}.nav{height:82px;background:#0a3478;border-bottom:4px solid #c8cdd4;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;position:sticky;top:0;z-index:20}.brand{font-weight:800;letter-spacing:.04em}.brand span{font-size:2rem;margin-right:.6rem;color:#e3e6ea}.nav nav{display:flex;gap:1.4rem;font-size:.72rem;font-weight:700;text-transform:uppercase}.hero{min-height:680px;background:linear-gradient(90deg,rgba(6,10,16,.92) 0%,rgba(6,10,16,.58) 38%,rgba(6,10,16,.08) 72%),linear-gradient(0deg,#060a10 0%,transparent 45%),url("assets/hero.jpg") center/cover no-repeat;display:flex;align-items:flex-end;padding:0 5vw 70px}.hero-copy{max-width:720px}.hero h1{font-size:clamp(3.5rem,7vw,7rem);line-height:.92;margin:0 0 1rem;font-weight:900;letter-spacing:-.05em}.player-line{font-weight:800;margin:.35rem 0}.player-line b{color:#087bff;padding:0 .5rem}.hero h2{font-size:1.4rem;letter-spacing:.15em;margin:1.6rem 0 .35rem}.hero p{color:#c8cdd4}.button,.outline-button{display:inline-block;margin-top:1.2rem;padding:1rem 1.5rem;background:#087bff;font-size:.8rem;font-weight:800}.feature-bar{background:#8d96a2;color:#0a111b;border-left:18px solid #087bff;padding:1.4rem 5vw;display:flex;gap:2rem;align-items:center}.feature-bar strong{font-size:2rem}.feature-bar span{font-size:.78rem;font-weight:800}.grid{display:grid;gap:28px;padding:38px 5vw}.featured{grid-template-columns:1.8fr 1fr}.three{grid-template-columns:repeat(3,1fr);padding-top:0}.card,.light-card{border:2px solid #7f8996;overflow:hidden;background:#0b1118}.card img,.card video,.light-card img,.light-card video{width:100%;height:360px;display:block;object-fit:cover;background:#000}.light-card img,.light-card video{height:270px}.card-copy{padding:1rem 1.2rem}.card h3,.light-card h3{margin:0 0 .35rem}.card p{margin:0;color:#aab4c2}.light-card>div{background:#f7f9fc;color:#10151d;padding:1.1rem}.light-card p{color:#596371;margin:.4rem 0 0;font-size:.88rem}.academic-photo{object-position:center top!important}.beyond{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:38px 5vw}.activities{background:#101722;border-left:9px solid #087bff;border-top:6px solid #c8cdd4;padding:2.2rem}.activities h2{font-size:2rem;margin-top:0}.activities ul{list-style:none;padding:0}.activities li{position:relative;padding:0 0 1.5rem 2rem}.activities li:before{content:"";position:absolute;left:0;top:.35rem;width:12px;height:12px;border-radius:50%;background:#087bff}.activities strong,.activities span{display:block}.activities span{color:#aab4c2;font-size:.82rem;margin-top:.35rem}.beyond figure{margin:0;border-top:6px solid #c8cdd4;background:#0b1118}.beyond img{width:100%;height:390px;object-fit:cover;object-position:center 25%;display:block}.beyond figcaption{padding:1rem;font-weight:800;font-size:.8rem}.cta{border-top:4px solid #7f8996;background:#111a28;padding:3rem 5vw;display:flex;align-items:center;justify-content:space-between}.cta h2{font-size:2.2rem;margin:0}.cta h2 span{color:#087bff}.cta p{color:#c8cdd4;font-size:.78rem;font-weight:800}.outline-button{background:transparent;border:2px solid #e3e6ea}footer{padding:3rem 5vw 4rem;display:flex;justify-content:space-between;border-top:1px solid #303945}.footer strong,footer small{display:block}.contact{text-align:right}.socials{display:flex;justify-content:flex-end;gap:18px;font-size:1.7rem;margin-top:1rem}.social-note{color:#7f8996;margin-top:.6rem}@media(max-width:850px){.nav nav{display:none}.hero{min-height:590px;background-position:60% center}.hero h1{font-size:3.5rem}.featured,.three,.beyond{grid-template-columns:1fr}.card img,.card video{height:300px}.light-card img,.light-card video{height:320px}.feature-bar{align-items:flex-start;flex-direction:column;gap:.4rem}.cta,footer{align-items:flex-start;flex-direction:column;gap:1.5rem}.contact{text-align:left}.socials{justify-content:flex-start}}
+.single-feature{grid-template-columns:minmax(0,980px);justify-content:center}
+.single-feature .wide{width:100%}
+#development .light-card:nth-child(2) video{object-fit:cover;object-position:center 55%}
+.academic-photo{object-fit:cover!important;object-position:center 18%!important}
+@media(max-width:850px){.single-feature{grid-template-columns:1fr}}
+
+/* Show more of the basketballs in the Basketball Development media */
+.single-feature video{height:520px;object-fit:contain;background:#05080d}
+.card-copy p.detail{margin-top:.65rem;color:#c8cdd4;line-height:1.55}
+.light-card p.detail.dark{margin-top:.6rem;color:#687382;line-height:1.45}
+.profile-strip{max-width:1180px;margin:0 auto;padding:54px 5vw 64px;border-top:1px solid #3f4854;border-bottom:1px solid #3f4854}
+.profile-strip .eyebrow{color:#087bff;font-size:.76rem;font-weight:900;letter-spacing:.14em}
+.profile-strip h2{font-size:clamp(2rem,4vw,3.5rem);margin:.65rem 0 1rem}
+.profile-strip p{max-width:900px;color:#c8cdd4;font-size:1.05rem;line-height:1.75;margin:0}
+@media(max-width:850px){.single-feature video{height:390px;object-fit:contain}.profile-strip{padding-top:40px;padding-bottom:44px}}
+
+/* Requested two-column Basketball Development feature */
+.development-feature{max-width:1280px;margin:0 auto;padding:58px 4vw 70px;display:grid;grid-template-columns:.78fr 1.22fr;gap:42px;align-items:center;border-bottom:1px solid #3f4854}
+.development-copy .eyebrow{color:#087bff;font-size:.76rem;font-weight:900;letter-spacing:.14em}
+.development-copy h2{font-size:clamp(2.5rem,4.6vw,4.5rem);line-height:.94;margin:.75rem 0 1.5rem}
+.development-copy p{color:#c8cdd4;font-size:1rem;line-height:1.7;margin:0 0 1.4rem}
+.development-copy strong{font-size:.8rem;letter-spacing:.1em}
+.development-visual{background:#05080d;border:1px solid #7f8996}
+.development-visual video{display:block;width:100%;height:610px;object-fit:cover;object-position:center 68%;background:#05080d}
+.development-visual .card-copy{padding:22px 26px 25px}
+.development-visual .card-copy h3{margin:0 0 8px}
+.development-visual .card-copy p{margin:0;color:#aab4c2}
+@media(max-width:850px){.development-feature{grid-template-columns:1fr}.development-visual video{height:500px}}
+
+/* Basketball Development: keep Cristian's face and ball visible; remove excess floor */
+.development-visual video{height:610px;object-fit:cover;object-position:center 38%}
+
+/* Final Basketball Development framing: head + ball + feet, minimal floor */
+.development-visual video{height:610px;object-fit:contain;object-position:center center;background:#05080d}
+
+/* Refined framing: Cristian larger, feet visible, less floor */
+.development-visual video{height:610px;object-fit:cover;object-position:center 46%}
+
+/* Basketball Development final crop: less bottom/yellow floor; head, ball and feet remain visible */
+.development-visual video{height:610px;object-fit:cover;object-position:center 35%;background:#05080d}
+
+/* Basketball Development: show Cristian's complete body — head, hands, ball and feet */
+.development-visual video{height:610px;object-fit:contain;object-position:center center;background:#05080d}
+
+/* Basketball Development framing matched to supplied screenshot */
+.development-visual video{height:610px;object-fit:contain;object-position:center center;background:#05080d}
